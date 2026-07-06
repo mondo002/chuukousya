@@ -1020,7 +1020,7 @@ body:not(.jp-mode) .lang-status-jp{display:none}
 }
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 :root{--v601-entry-bg:url("ferrari-home.png");}
 .v601-entry{position:fixed;inset:0;z-index:99999;background:linear-gradient(90deg,rgba(2,6,23,.34),rgba(2,6,23,.12),rgba(2,6,23,.38)),var(--v601-entry-bg) center center/cover no-repeat;display:flex;align-items:center;justify-content:center;padding:34px;overflow:auto;}
 .v601-entry.hidden{display:none!important}
@@ -1052,7 +1052,7 @@ body:not(.jp-mode) .lang-status-jp{display:none}
 @media(max-width:760px){.v601-entry{padding:20px;background-position:center center}.v601-entry-cards{grid-template-columns:1fr}.v601-entry-card{min-height:210px;padding:20px}.v601-company-title h1{font-size:40px}}
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix CSS */
+/* V6.5.1 Contact Duplicate Cards Fix CSS */
 .v601-entry{
   background:
     linear-gradient(90deg,rgba(2,8,23,.14),rgba(2,8,23,.02),rgba(2,8,23,.18)),
@@ -1145,7 +1145,7 @@ body:not(.jp-mode) .lang-status-jp{display:none}
 }
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix Final CSS */
+/* V6.5.1 Contact Duplicate Cards Fix Final CSS */
 .v603-entry{
   background:
     linear-gradient(90deg,rgba(0,0,0,.42),rgba(0,0,0,.08),rgba(0,0,0,.52)),
@@ -1203,7 +1203,7 @@ body:not(.jp-mode) .lang-status-jp{display:none}
 }
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix CSS */
+/* V6.5.1 Contact Duplicate Cards Fix CSS */
 .v612-splash{
   position:fixed;
   inset:0;
@@ -1316,7 +1316,7 @@ body.v612-learning .tune-hero p,
 body.v612-learning .v601-company-hero p{color:rgba(255,255,255,.86)!important}
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 body.v613-splash #v612Splash{
   display:flex!important;
   visibility:visible!important;
@@ -1367,7 +1367,7 @@ body.v613-home #v601Entry.v603-entry{
 </style>
 
 <style id="v622-splash-restore-dashboard-style">
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 /* Keep splash. Do not hide v612Splash. */
 :root{
   --v601-entry-bg:url("ferrari-home.png")!important;
@@ -2411,7 +2411,7 @@ html body .app [style*="green"]{
 
 
 <style id="v626-github-lightweight-path-fix">
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 /* Ferrari image is external now: ferrari-home.png */
 :root{
   --v601-entry-bg:url("ferrari-home.png")!important;
@@ -3426,7 +3426,7 @@ body.v638-premium-stock .v632-copy,body.v638-premium-stock .v631-copy{min-height
 
 
 <style id="v639-stock-layout-emergency-fix-style">
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 /* Fix V6.3.8 stock card overflow and broken price extraction. */
 
 body.v639-stock-fixed .v632-stock-grid,
@@ -4142,6 +4142,899 @@ body.v641-photo-slots-ready .v641-photo-guide + .v640-stock-intro{
 }
 </style>
 
+
+<style id="v642-real-content-contact-final-polish-style">
+/* V6.4.2 Real Content Cleanup + Contact Final Polish */
+/* Content cleanup only. No database / reservation / stock logic change. */
+
+body.v642-content-final{
+  background:#0b0f17;
+}
+
+.v642-contact-hero{
+  max-width:1280px;
+  margin:0 0 24px;
+  display:grid;
+  grid-template-columns:1.08fr .92fr;
+  gap:16px;
+}
+
+.v642-contact-card{
+  background:rgba(255,255,255,.94);
+  border:1px solid rgba(17,24,39,.14);
+  border-left:6px solid #b00014;
+  box-shadow:0 22px 70px rgba(17,24,39,.16);
+  color:#111827;
+  text-shadow:none;
+  padding:22px;
+}
+
+.v642-contact-card.dark{
+  background:rgba(17,24,39,.92);
+  border-color:rgba(255,255,255,.14);
+  color:#fff;
+}
+
+.v642-contact-card b{
+  display:block;
+  color:inherit!important;
+  font-size:24px;
+  margin-bottom:10px;
+  letter-spacing:-.02em;
+}
+
+.v642-contact-card p{
+  color:inherit!important;
+  opacity:.82;
+  font-weight:850;
+  line-height:1.75;
+  margin:0;
+}
+
+.v642-contact-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  margin-top:16px;
+}
+
+.v642-contact-item{
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  padding:14px;
+}
+
+.v642-contact-item span{
+  display:block;
+  color:rgba(255,255,255,.62)!important;
+  font-size:10px;
+  letter-spacing:.16em;
+  font-weight:1000;
+  margin-bottom:6px;
+}
+
+.v642-contact-item strong{
+  color:#fff!important;
+  font-size:18px;
+  word-break:break-word;
+}
+
+.v642-service-list{
+  display:grid;
+  gap:10px;
+  margin-top:16px;
+}
+
+.v642-service-list div{
+  display:grid;
+  grid-template-columns:100px 1fr;
+  gap:12px;
+  padding:12px;
+  background:#f8fafc;
+  border:1px solid rgba(17,24,39,.08);
+}
+
+.v642-service-list span{
+  color:#b00014!important;
+  font-size:11px;
+  font-weight:1000;
+  letter-spacing:.12em;
+}
+
+.v642-service-list p{
+  color:#334155!important;
+  opacity:1!important;
+  font-size:13px;
+  line-height:1.6;
+}
+
+.v642-clean-note{
+  max-width:1280px;
+  margin:0 0 22px;
+  padding:18px 20px;
+  background:rgba(255,255,255,.94);
+  border:1px solid rgba(17,24,39,.14);
+  border-left:6px solid #111827;
+  color:#111827;
+  text-shadow:none;
+  box-shadow:0 18px 56px rgba(17,24,39,.14);
+}
+
+.v642-clean-note b{
+  display:block;
+  color:#111827!important;
+  font-size:19px;
+  margin-bottom:8px;
+}
+
+.v642-clean-note p{
+  margin:0;
+  color:#334155!important;
+  font-weight:850;
+  line-height:1.72;
+}
+
+.v642-photo-simple{
+  max-width:1280px;
+  margin:0 0 22px;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:12px;
+}
+
+.v642-photo-simple-card{
+  background:rgba(17,24,39,.92);
+  border:1px solid rgba(255,255,255,.14);
+  border-left:6px solid #b00014;
+  box-shadow:0 20px 64px rgba(17,24,39,.18);
+  color:#fff;
+  text-shadow:none;
+  padding:18px 20px;
+}
+
+.v642-photo-simple-card b{
+  display:block;
+  color:#fff!important;
+  font-size:18px;
+  margin-bottom:8px;
+}
+
+.v642-photo-simple-card p{
+  color:rgba(255,255,255,.76)!important;
+  font-weight:850;
+  line-height:1.7;
+  margin:0;
+}
+
+.v642-file-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:12px;
+}
+
+.v642-file-row code{
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  color:#fff!important;
+  padding:8px 10px;
+  font-size:12px;
+  font-weight:900;
+}
+
+body.v642-content-final #v641PhotoGuide{
+  display:none!important;
+}
+
+.v642-public-footer-mini{
+  max-width:1280px;
+  margin:24px 0 42px;
+  padding:16px 18px;
+  background:rgba(0,0,0,.20);
+  border:1px solid rgba(255,255,255,.16);
+  color:#fff;
+  text-shadow:0 10px 30px rgba(0,0,0,.62);
+  backdrop-filter:blur(8px);
+}
+
+.v642-public-footer-mini b{
+  display:block;
+  color:#fff!important;
+  margin-bottom:8px;
+}
+
+.v642-public-footer-mini p{
+  color:rgba(255,255,255,.70)!important;
+  font-weight:850;
+  line-height:1.65;
+  margin:0;
+  font-size:13px;
+}
+
+@media(max-width:980px){
+  .v642-contact-hero,
+  .v642-contact-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+@media(max-width:720px){
+  .v642-contact-card,
+  .v642-clean-note,
+  .v642-photo-simple-card{
+    border-left-width:4px!important;
+    padding:16px!important;
+  }
+  .v642-service-list div{
+    grid-template-columns:1fr!important;
+  }
+  .v642-contact-item strong{
+    font-size:16px!important;
+  }
+}
+</style>
+
+
+<style id="v643-mobile-final-visual-check-style">
+/* V6.4.3 Mobile Final Visual Check + Public Release Polish */
+/* Mobile-first final QA polish only. No database / stock / reservation logic change. */
+
+html,
+body{
+  max-width:100%!important;
+  overflow-x:hidden!important;
+}
+
+body.v643-mobile-final{
+  background:#0b0f17;
+}
+
+body.v643-mobile-final *,
+body.v643-mobile-final *:before,
+body.v643-mobile-final *:after{
+  box-sizing:border-box!important;
+}
+
+/* General tap targets */
+body.v643-mobile-final button,
+body.v643-mobile-final a,
+body.v643-mobile-final [role="button"]{
+  touch-action:manipulation!important;
+}
+
+/* Official public pages max-width protection */
+body.v643-mobile-final .v629-page,
+body.v643-mobile-final .v630-page,
+body.v643-mobile-final .v629-official-main,
+body.v643-mobile-final .v630-official-main{
+  max-width:100vw!important;
+  overflow-x:hidden!important;
+}
+
+/* First screen mobile premium cleanup */
+@media(max-width:760px){
+  body.v643-mobile-final #v601Entry.v629-entry,
+  body.v643-mobile-final #v601Entry.v630-entry{
+    background-attachment:scroll!important;
+    background-position:center center!important;
+  }
+
+  body.v643-mobile-final .v629-page,
+  body.v643-mobile-final .v630-page{
+    padding-left:16px!important;
+    padding-right:16px!important;
+  }
+
+  body.v643-mobile-final .v629-topline,
+  body.v643-mobile-final .v630-topline{
+    padding-top:18px!important;
+    padding-bottom:14px!important;
+  }
+
+  body.v643-mobile-final .v629-brand,
+  body.v643-mobile-final .v630-brand{
+    font-size:17px!important;
+    line-height:1.15!important;
+  }
+
+  body.v643-mobile-final .v629-brand span,
+  body.v643-mobile-final .v630-brand span{
+    font-size:10px!important;
+    letter-spacing:.12em!important;
+  }
+
+  body.v643-mobile-final .v629-nav,
+  body.v643-mobile-final .v630-nav{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:8px!important;
+    width:100%!important;
+  }
+
+  body.v643-mobile-final .v629-nav button,
+  body.v643-mobile-final .v630-nav button{
+    width:100%!important;
+    min-height:44px!important;
+    padding:8px 6px!important;
+    font-size:10px!important;
+    letter-spacing:.08em!important;
+    white-space:nowrap!important;
+  }
+
+  body.v643-mobile-final .v629-home-grid,
+  body.v643-mobile-final .v630-home-grid{
+    grid-template-columns:1fr!important;
+    gap:14px!important;
+    padding-top:20px!important;
+    min-height:auto!important;
+  }
+
+  body.v643-mobile-final .v637-premium-card,
+  body.v643-mobile-final .v629-left-copy,
+  body.v643-mobile-final .v630-left-copy{
+    width:100%!important;
+    max-width:100%!important;
+    padding:18px!important;
+    background:linear-gradient(135deg,rgba(0,0,0,.34),rgba(0,0,0,.16))!important;
+    border:1px solid rgba(255,255,255,.20)!important;
+    backdrop-filter:blur(10px)!important;
+  }
+
+  body.v643-mobile-final .v637-premium-title,
+  body.v643-mobile-final .v629-left-copy h1,
+  body.v643-mobile-final .v630-left-copy h1{
+    font-size:34px!important;
+    line-height:1.06!important;
+    letter-spacing:-.04em!important;
+    max-width:100%!important;
+    overflow-wrap:break-word!important;
+  }
+
+  body.v643-mobile-final .v637-premium-sub,
+  body.v643-mobile-final .v629-sub,
+  body.v643-mobile-final .v630-sub{
+    font-size:13px!important;
+    line-height:1.72!important;
+    max-width:100%!important;
+  }
+
+  body.v643-mobile-final .v637-premium-chips{
+    gap:7px!important;
+    margin:14px 0 16px!important;
+  }
+
+  body.v643-mobile-final .v637-premium-chip{
+    min-height:28px!important;
+    font-size:10px!important;
+    padding:0 8px!important;
+  }
+
+  body.v643-mobile-final .v637-premium-actions,
+  body.v643-mobile-final .v629-actions,
+  body.v643-mobile-final .v630-actions{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:9px!important;
+    width:100%!important;
+  }
+
+  body.v643-mobile-final .v637-premium-actions button,
+  body.v643-mobile-final .v629-actions button,
+  body.v643-mobile-final .v630-actions button{
+    width:100%!important;
+    min-height:46px!important;
+    padding:0 12px!important;
+  }
+
+  body.v643-mobile-final .v637-visitor-panel,
+  body.v643-mobile-final .v629-right-copy,
+  body.v643-mobile-final .v630-right-copy{
+    width:100%!important;
+    max-width:100%!important;
+  }
+
+  body.v643-mobile-final .v637-visitor-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+/* Stock Cars mobile final */
+body.v643-mobile-final .v632-stock-grid,
+body.v643-mobile-final .v631-stock-grid,
+body.v643-mobile-final .v630-stock-grid{
+  max-width:1280px!important;
+  width:100%!important;
+}
+
+@media(max-width:980px){
+  body.v643-mobile-final .v632-stock-grid,
+  body.v643-mobile-final .v631-stock-grid,
+  body.v643-mobile-final .v630-stock-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+@media(max-width:760px){
+  body.v643-mobile-final [data-v629-page="stock"] .v629-page-title h1,
+  body.v643-mobile-final [data-v629-page="stock"] .v630-page-title h1,
+  body.v643-mobile-final [data-v629-page="reservation"] .v629-page-title h1,
+  body.v643-mobile-final [data-v629-page="reservation"] .v630-page-title h1,
+  body.v643-mobile-final [data-v629-page="contact"] .v629-page-title h1,
+  body.v643-mobile-final [data-v629-page="contact"] .v630-page-title h1{
+    font-size:34px!important;
+    line-height:1.08!important;
+    letter-spacing:-.04em!important;
+  }
+
+  body.v643-mobile-final .v639-stock-card,
+  body.v643-mobile-final .v640-stock-card,
+  body.v643-mobile-final .v632-stock-card,
+  body.v643-mobile-final .v631-stock-card,
+  body.v643-mobile-final .v630-stock-card{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+    margin-left:0!important;
+    margin-right:0!important;
+  }
+
+  body.v643-mobile-final .v639-photo,
+  body.v643-mobile-final .v640-photo,
+  body.v643-mobile-final .v632-photo{
+    min-height:185px!important;
+  }
+
+  body.v643-mobile-final .v639-body,
+  body.v643-mobile-final .v640-body,
+  body.v643-mobile-final .v632-body{
+    padding:16px!important;
+  }
+
+  body.v643-mobile-final .v639-head{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    align-items:start!important;
+    gap:8px!important;
+  }
+
+  body.v643-mobile-final .v639-title{
+    font-size:21px!important;
+    line-height:1.22!important;
+  }
+
+  body.v643-mobile-final .v639-price-grid,
+  body.v643-mobile-final .v638-price-panel{
+    grid-template-columns:1fr!important;
+    gap:8px!important;
+  }
+
+  body.v643-mobile-final .v639-price-main b,
+  body.v643-mobile-final .v638-price-main b{
+    font-size:23px!important;
+  }
+
+  body.v643-mobile-final .v639-spec-grid{
+    grid-template-columns:1fr 1fr!important;
+    gap:8px!important;
+  }
+
+  body.v643-mobile-final .v639-actions,
+  body.v643-mobile-final .v632-card-actions,
+  body.v643-mobile-final .v631-card-actions,
+  body.v643-mobile-final .v630-card-actions{
+    grid-template-columns:1fr!important;
+    gap:9px!important;
+  }
+
+  body.v643-mobile-final .v639-actions button,
+  body.v643-mobile-final .v632-card-actions button,
+  body.v643-mobile-final .v631-card-actions button,
+  body.v643-mobile-final .v630-card-actions button{
+    width:100%!important;
+    min-height:48px!important;
+  }
+
+  body.v643-mobile-final .v641-photo-file{
+    right:10px!important;
+    top:10px!important;
+    font-size:9px!important;
+    max-width:calc(100% - 20px)!important;
+  }
+
+  body.v643-mobile-final .v641-photo-status{
+    left:10px!important;
+    top:10px!important;
+    font-size:9px!important;
+  }
+}
+
+@media(max-width:390px){
+  body.v643-mobile-final .v639-spec-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+/* Reservation / Contact mobile readability */
+@media(max-width:760px){
+  body.v643-mobile-final .v638-res-hero,
+  body.v643-mobile-final .v642-contact-hero,
+  body.v643-mobile-final .v637-public-contact-strip,
+  body.v643-mobile-final .v634-faq-grid,
+  body.v643-mobile-final .v634-flow,
+  body.v643-mobile-final .v634-trust-grid{
+    grid-template-columns:1fr!important;
+    gap:12px!important;
+  }
+
+  body.v643-mobile-final .v632-template,
+  body.v643-mobile-final .v631-template,
+  body.v643-mobile-final .v630-template,
+  body.v643-mobile-final .v642-contact-card,
+  body.v643-mobile-final .v638-res-card,
+  body.v643-mobile-final .v634-faq-card,
+  body.v643-mobile-final .v634-flow-card,
+  body.v643-mobile-final .v637-public-contact-card{
+    width:100%!important;
+    max-width:100%!important;
+    padding:16px!important;
+    border-left-width:4px!important;
+  }
+
+  body.v643-mobile-final textarea,
+  body.v643-mobile-final .v632-template textarea,
+  body.v643-mobile-final .v631-template textarea{
+    width:100%!important;
+    min-height:260px!important;
+    font-size:12px!important;
+    line-height:1.65!important;
+    overflow:auto!important;
+  }
+
+  body.v643-mobile-final .v632-copy,
+  body.v643-mobile-final .v631-copy,
+  body.v643-mobile-final .v630-copy{
+    width:100%!important;
+    min-height:48px!important;
+  }
+
+  body.v643-mobile-final .v642-contact-grid,
+  body.v643-mobile-final .v638-conversion-flow,
+  body.v643-mobile-final .v642-service-list div{
+    grid-template-columns:1fr!important;
+  }
+}
+
+/* Learning system mobile safety */
+@media(max-width:760px){
+  body.v643-mobile-final .app,
+  body.v643-mobile-final #page{
+    width:100%!important;
+    max-width:100vw!important;
+    overflow-x:hidden!important;
+  }
+
+  body.v643-mobile-final .app .grid,
+  body.v643-mobile-final .app .cards,
+  body.v643-mobile-final .app [class*="grid"]{
+    grid-template-columns:1fr!important;
+  }
+
+  body.v643-mobile-final .app table{
+    display:block!important;
+    overflow-x:auto!important;
+    white-space:nowrap!important;
+    max-width:100%!important;
+  }
+
+  body.v643-mobile-final .app input,
+  body.v643-mobile-final .app select,
+  body.v643-mobile-final .app textarea{
+    max-width:100%!important;
+  }
+}
+
+/* Hidden mobile QA panel */
+.v643-mobile-check-panel{
+  display:none;
+  position:fixed;
+  right:14px;
+  bottom:14px;
+  z-index:100001;
+  width:min(360px,calc(100vw - 28px));
+  max-height:70vh;
+  overflow:auto;
+  background:rgba(17,24,39,.97);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 24px 80px rgba(0,0,0,.36);
+  padding:16px;
+}
+
+.v643-mobile-check-panel.show{
+  display:block;
+}
+
+.v643-mobile-check-panel b{
+  display:block;
+  color:#fff!important;
+  font-size:16px;
+  margin-bottom:10px;
+}
+
+.v643-mobile-check-panel div{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:8px 0;
+  border-bottom:1px solid rgba(255,255,255,.12);
+  color:#fff!important;
+}
+
+.v643-mobile-check-panel span{
+  color:#fff!important;
+}
+
+.v643-mobile-check-panel .ok{
+  color:#86efac!important;
+  font-weight:1000;
+}
+
+.v643-mobile-check-panel .warn{
+  color:#fde68a!important;
+  font-weight:1000;
+}
+</style>
+
+
+<style id="v650-public-release-stable-style">
+/* V6.5.1 Contact Duplicate Cards Fix */
+/* Final public release cleanup only. No feature expansion. */
+
+html,body{
+  max-width:100%!important;
+  overflow-x:hidden!important;
+}
+
+body.v650-public-release{
+  background:#0b0f17;
+}
+
+body.v650-public-release *,
+body.v650-public-release *:before,
+body.v650-public-release *:after{
+  box-sizing:border-box!important;
+}
+
+/* public release lock: keep pages stable */
+body.v650-public-release .v629-page,
+body.v650-public-release .v630-page,
+body.v650-public-release .v629-official-main,
+body.v650-public-release .v630-official-main,
+body.v650-public-release #page,
+body.v650-public-release .app{
+  max-width:100vw!important;
+  overflow-x:hidden!important;
+}
+
+/* reduce version/debug feeling on public site */
+body.v650-public-release .v650-hide-public,
+body.v650-public-release [data-public-version],
+body.v650-public-release .v635-version-muted,
+body.v650-public-release .v636-hidden-version{
+  display:none!important;
+}
+
+/* final public footer */
+.v650-final-footer{
+  max-width:1280px;
+  margin:28px 0 36px;
+  padding:18px 20px;
+  background:rgba(17,24,39,.92);
+  border:1px solid rgba(255,255,255,.14);
+  border-left:6px solid #b00014;
+  box-shadow:0 20px 64px rgba(0,0,0,.22);
+  color:#fff;
+  text-shadow:none;
+}
+
+.v650-final-footer b{
+  display:block;
+  color:#fff!important;
+  font-size:18px;
+  margin-bottom:8px;
+}
+
+.v650-final-footer p{
+  margin:0;
+  color:rgba(255,255,255,.72)!important;
+  line-height:1.7;
+  font-size:13px;
+  font-weight:850;
+}
+
+.v650-final-footer .v650-contact-line{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:12px;
+}
+
+.v650-final-footer .v650-contact-line span{
+  display:inline-flex;
+  align-items:center;
+  min-height:32px;
+  padding:0 10px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  color:#fff!important;
+  font-size:12px;
+  font-weight:900;
+}
+
+/* final button consistency */
+body.v650-public-release button{
+  cursor:pointer!important;
+}
+
+body.v650-public-release .v637-primary-cta,
+body.v650-public-release .v639-actions button:first-child,
+body.v650-public-release .v632-copy,
+body.v650-public-release .v631-copy{
+  background:#b00014!important;
+  border-color:#b00014!important;
+  color:#fff!important;
+}
+
+/* keep stock cards clean */
+body.v650-public-release .v639-stock-card,
+body.v650-public-release .v640-stock-card,
+body.v650-public-release .v632-stock-card{
+  max-width:100%!important;
+  min-width:0!important;
+  overflow:hidden!important;
+}
+
+/* hidden final release QA */
+.v650-release-check-panel{
+  display:none;
+  position:fixed;
+  right:16px;
+  bottom:16px;
+  z-index:100002;
+  width:min(380px,calc(100vw - 32px));
+  max-height:72vh;
+  overflow:auto;
+  background:rgba(17,24,39,.97);
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 24px 80px rgba(0,0,0,.36);
+  color:#fff;
+  padding:16px;
+}
+
+.v650-release-check-panel.show{
+  display:block;
+}
+
+.v650-release-check-panel b{
+  display:block;
+  color:#fff!important;
+  font-size:16px;
+  margin-bottom:10px;
+}
+
+.v650-release-check-panel div{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:8px 0;
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+
+.v650-release-check-panel span{
+  color:#fff!important;
+}
+
+.v650-release-check-panel .ok{
+  color:#86efac!important;
+  font-weight:1000;
+}
+
+.v650-release-check-panel .warn{
+  color:#fde68a!important;
+  font-weight:1000;
+}
+
+@media(max-width:760px){
+  .v650-final-footer{
+    border-left-width:4px!important;
+    padding:16px!important;
+    margin:22px 0 28px!important;
+  }
+  .v650-final-footer .v650-contact-line{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+  }
+  body.v650-public-release .v629-nav,
+  body.v650-public-release .v630-nav{
+    grid-template-columns:1fr 1fr!important;
+  }
+  body.v650-public-release .v629-nav button,
+  body.v650-public-release .v630-nav button,
+  body.v650-public-release .v637-premium-actions button,
+  body.v650-public-release .v639-actions button,
+  body.v650-public-release .v632-copy,
+  body.v650-public-release .v631-copy{
+    min-height:48px!important;
+    width:100%!important;
+  }
+}
+
+@media(max-width:390px){
+  body.v650-public-release .v629-nav,
+  body.v650-public-release .v630-nav{
+    grid-template-columns:1fr!important;
+  }
+}
+</style>
+
+
+<style id="v651-contact-duplicate-cards-fix-style">
+/* V6.5.1 Contact Duplicate Cards Fix */
+/* Remove old duplicated contact service cards from V6.3.4 while keeping final Contact section. */
+
+body.v651-contact-clean [data-v629-page="contact"] .v634-contact-service,
+body.v651-contact-clean [data-v629-page="contact"] .v634-trust-grid,
+body.v651-contact-clean [data-v629-page="contact"] #v634Trust{
+  display:none!important;
+}
+
+body.v651-contact-clean [data-v629-page="contact"] .v642-contact-hero{
+  margin-bottom:24px!important;
+}
+
+body.v651-contact-clean [data-v629-page="contact"] .v650-final-footer{
+  margin-top:24px!important;
+}
+
+/* If any old card survives, keep it from taking visual space */
+body.v651-contact-clean [data-v629-page="contact"] .v634-trust-card[data-v651-old="1"]{
+  display:none!important;
+}
+
+.v651-contact-clean-note{
+  max-width:1280px;
+  margin:0 0 22px;
+  padding:16px 18px;
+  background:rgba(17,24,39,.92);
+  border:1px solid rgba(255,255,255,.14);
+  border-left:6px solid #b00014;
+  color:#fff;
+  text-shadow:none;
+  box-shadow:0 18px 56px rgba(0,0,0,.18);
+}
+
+.v651-contact-clean-note b{
+  display:block;
+  color:#fff!important;
+  font-size:18px;
+  margin-bottom:8px;
+}
+
+.v651-contact-clean-note p{
+  color:rgba(255,255,255,.74)!important;
+  font-weight:850;
+  line-height:1.7;
+  margin:0;
+}
+
+@media(max-width:760px){
+  .v651-contact-clean-note{
+    border-left-width:4px!important;
+    padding:16px!important;
+  }
+}
+</style>
+
 </head>
 <body>
 
@@ -4209,7 +5102,7 @@ body.v641-photo-slots-ready .v641-photo-guide + .v640-stock-intro{
       <button data-page="initial">🧾 初期费用</button>
       <button data-page="care">🔧 维修保养</button>
     </nav>
-    <div class="version">V6.4.1 Real Stock Photo Slots Premium Placeholder Fix<br>细节恢复和JDM文化强化版</div>
+    <div class="version">V6.5.1 Contact Duplicate Cards Fix<br>细节恢复和JDM文化强化版</div>
   </aside>
   <main class="main">
     <div class="top">
@@ -5463,7 +6356,7 @@ function settingsState(){
 function openSettings(){
  let s=systemStatus();
  let st=settingsState();
- modal(`<div class="modal-head"><div><h2>设置 / 壁纸 / 语言</h2><p class="meta">V6.4.1 Real Stock Photo Slots Premium Placeholder Fix</p></div><button class="close" data-action="close">×</button></div>
+ modal(`<div class="modal-head"><div><h2>设置 / 壁纸 / 语言</h2><p class="meta">V6.5.1 Contact Duplicate Cards Fix</p></div><button class="close" data-action="close">×</button></div>
  <div class="settings-hero"><h2>设置最终检查版</h2><p>这里集中检查真实汽车壁纸、壁纸调节、语言按钮、深色/浅色显示和系统状态。</p><p class="meta">不影响车型数据、详情、收藏、对比、JDM、术语、费用和改装页面。</p></div>
  <div class="settings-grid">${s.map(x=>`<div class="settings-card"><span>${esc(x[0])}</span><br><b>${esc(String(x[1]))}</b><br><span class="setting-pill ${x[2]?'ok':'warn'}">${x[2]?'正常':'注意'}</span></div>`).join('')}
   <div class="settings-card"><span>当前语言</span><br><b id="settingLangText">${st.lang==='jp'?'日本語':'中文'}</b><br><span class="setting-pill ok">按钮正常</span></div>
@@ -5664,7 +6557,7 @@ document.addEventListener('click',e=>{let p=e.target.closest('[data-page]');if(p
 $('#searchInput').addEventListener('input',()=>dictionary());
 window.addEventListener('DOMContentLoaded',()=>go('dashboard'));
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 const JP_TEXT_MAP=[
  ['V5.7.2 最终稳定检查','V5.7.2 最終安定性チェック'],['这里只显示状态，不改变页面功能。','ここでは状態だけを表示し、ページ機能は変更しません。'],['通过','合格'],['正常','正常'],['检查','チェック'],['首页','ホーム'],['买车流程','購入の流れ'],['车型','車種'],['JDM专区','JDMエリア'],['改装方案','カスタム案'],['对比','比較'],['术语','用語'],['检查','チェック'],['收藏','お気に入り'],
  ['购买判断','購入判断'],['初期费用','初期費用'],['养车费用','維持費'],['维修保养','整備・メンテ'],
@@ -5773,7 +6666,7 @@ window.addEventListener('DOMContentLoaded',()=>{wrapLangPageV571();applyLanguage
 setTimeout(()=>{wrapLangPageV571();applyLanguageMode();translateVisiblePageV571();},0);
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 function finalPageFunctionOk(name){
  try{return typeof eval(name)==='function'}catch(e){return false}
 }
@@ -6107,7 +7000,7 @@ setTimeout(v613ShowSplash,0);
 
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix JS */
+/* V6.5.1 Contact Duplicate Cards Fix JS */
 window.v622ForceLearningVisual = function(){
  document.body.classList.add('v622-learning');
  const labelMap={
@@ -6363,7 +7256,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix JS */
+/* V6.5.1 Contact Duplicate Cards Fix JS */
 window.v626ApplyImagePath = function(){
   document.body.classList.add('v626-learning');
   const ferrariUrl = 'url("ferrari-home.png")';
@@ -6487,7 +7380,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 });
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix */
+/* V6.5.1 Contact Duplicate Cards Fix */
 window.v628ApplyHomeFix=function(){const e=document.getElementById('v601Entry');if(e)e.classList.add('v628-entry');const h=document.querySelector('.v627-left-copy h1');if(h){h.innerHTML='在日本买中古车，<br>先看懂再决定。';h.style.setProperty('font-size','clamp(34px,4.2vw,62px)','important');h.style.setProperty('line-height','1.1','important')}const h2=document.querySelector('.v627-left-copy h2');if(h2)h2.style.setProperty('display','none','important')};
 const v628OldShowOfficialHome=v613ShowOfficialHome;v613ShowOfficialHome=function(){const r=v628OldShowOfficialHome();setTimeout(v628ApplyHomeFix,0);setTimeout(v628ApplyHomeFix,180);return r};
 window.addEventListener('DOMContentLoaded',()=>{setTimeout(v628ApplyHomeFix,0);setTimeout(v628ApplyHomeFix,300)});
@@ -7360,7 +8253,7 @@ window.addEventListener('resize',()=>{clearTimeout(window.__v638ResizeTimer);win
 
 
 
-/* V6.4.1 Real Stock Photo Slots Premium Placeholder Fix JS */
+/* V6.5.1 Contact Duplicate Cards Fix JS */
 window.v639Esc=function(s){
   if(typeof window.v632Esc==='function') return window.v632Esc(s);
   return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -7705,6 +8598,512 @@ window.addEventListener('DOMContentLoaded',()=>{
 window.addEventListener('resize',()=>{
   clearTimeout(window.__v641ResizeTimer);
   window.__v641ResizeTimer=setTimeout(window.v641ApplyPhotoSlots,160);
+});
+
+
+
+/* V6.4.2 Real Content Cleanup + Contact Final Polish JS */
+window.v642ContactHeroHTML=function(){
+  return `<section class="v642-contact-hero" id="v642ContactHero">
+    <div class="v642-contact-card">
+      <b>MENGDADUO 中古車 Learning System</b>
+      <p>面向在日华人的日本中古车学习与选车工具。重点是帮助用户先理解价格结构、车况风险、车检、修复历和后续费用，再进行预约咨询。</p>
+      <div class="v642-service-list">
+        <div><span>LEARN</span><p>学习日本中古车常见词汇、买车流程和费用结构。</p></div>
+        <div><span>CHECK</span><p>整理车况、修复历、车检、预算和看车前确认点。</p></div>
+        <div><span>CONTACT</span><p>通过预约模板发送车辆编号、预算、用途和想确认的问题。</p></div>
+      </div>
+    </div>
+    <div class="v642-contact-card dark">
+      <b>Contact</b>
+      <p>复制预约模板后，通过下面方式联系。</p>
+      <div class="v642-contact-grid">
+        <div class="v642-contact-item"><span>EMAIL</span><strong>mengdaduo@outlook.jp</strong></div>
+        <div class="v642-contact-item"><span>WECHAT</span><strong>2373998686</strong></div>
+      </div>
+    </div>
+  </section>`;
+};
+
+window.v642PhotoSimpleHTML=function(){
+  return `<section class="v642-photo-simple" id="v642PhotoSimple">
+    <div class="v642-photo-simple-card">
+      <b>车辆图片说明</b>
+      <p>库存车图片可以以后再上传。没有真实图片时，页面会自动显示高级占位图，不会破图。</p>
+      <div class="v642-file-row">
+        <code>stock-mgd-001.jpg</code>
+        <code>stock-mgd-002.jpg</code>
+        <code>stock-mgd-003.jpg</code>
+      </div>
+    </div>
+  </section>`;
+};
+
+window.v642FooterMiniHTML=function(){
+  return `<div class="v642-public-footer-mini" data-v642-mini-footer="1">
+    <b>MENGDADUO 中古車 Learning System</b>
+    <p>本网站用于中古车学习、选车辅助和预约咨询准备。车辆价格、车况、车检、修复历、整备内容、付款和交车条件，请以实际车辆资料和咨询确认内容为准。</p>
+  </div>`;
+};
+
+window.v642ApplyContentCleanup=function(){
+  document.body.classList.add('v642-content-final');
+  document.title='MENGDADUO 中古車 Learning System｜在日华人中古车学习与选车工具';
+
+  const stock=document.querySelector('[data-v629-page="stock"]');
+  if(stock){
+    const title=stock.querySelector('.v629-page-title,.v630-page-title');
+    const h1=stock.querySelector('.v629-page-title h1,.v630-page-title h1');
+    const p=stock.querySelector('.v629-page-title p:last-child,.v630-page-title p:last-child');
+    if(h1) h1.textContent='Current Stock Cars';
+    if(p) p.textContent='当前库存信息会根据实际车辆更新。预约前请重点确认支払総額、车检、修复历、整备内容和交车条件。';
+    if(title && !stock.querySelector('#v642PhotoSimple')){
+      title.insertAdjacentHTML('afterend',window.v642PhotoSimpleHTML());
+    }
+    const note=stock.querySelector('.v632-stock-note,.v639-stock-note,.v640-stock-note');
+    if(note){
+      note.innerHTML='<b>库存确认说明</b><p>页面价格和车辆信息用于预约前确认。实际价格、车况、整备、付款和交车条件，请以咨询确认内容为准。</p>';
+    }
+  }
+
+  const contact=document.querySelector('[data-v629-page="contact"]');
+  if(contact){
+    const title=contact.querySelector('.v629-page-title,.v630-page-title');
+    const h1=contact.querySelector('.v629-page-title h1,.v630-page-title h1');
+    const p=contact.querySelector('.v629-page-title p:last-child,.v630-page-title p:last-child');
+    if(h1) h1.textContent='Contact / Service';
+    if(p) p.textContent='中古车学习、选车辅助、费用判断和预约咨询准备。';
+    if(title && !contact.querySelector('#v642ContactHero')){
+      title.insertAdjacentHTML('afterend',window.v642ContactHeroHTML());
+    }
+    if(!contact.querySelector('[data-v642-mini-footer]')){
+      contact.insertAdjacentHTML('beforeend',window.v642FooterMiniHTML());
+    }
+  }
+
+  const reservation=document.querySelector('[data-v629-page="reservation"]');
+  if(reservation){
+    const h1=reservation.querySelector('.v629-page-title h1,.v630-page-title h1');
+    const p=reservation.querySelector('.v629-page-title p:last-child,.v630-page-title p:last-child');
+    if(h1) h1.textContent='Reservation / Contact';
+    if(p) p.textContent='复制模板，发送车辆编号、预算、用途和想确认的问题。';
+  }
+
+  /* Clean wording on visible text */
+  const reps=[
+    [/展示样本/g,'库存展示'],
+    [/示例/g,''],
+    [/半成品/g,'公开预览'],
+    [/测试/g,''],
+    [/已加载/g,'']
+  ];
+  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+  let n;
+  while(n=walker.nextNode()){
+    let old=n.nodeValue, s=old;
+    reps.forEach(([r,t])=>s=s.replace(r,t));
+    s=s.replace(/\s{2,}/g,' ');
+    if(s!==old) n.nodeValue=s;
+  }
+
+  if(typeof window.v641ApplyPhotoSlots==='function') window.v641ApplyPhotoSlots();
+  if(typeof window.v640ApplyVisualQA==='function') window.v640ApplyVisualQA();
+  if(typeof window.v639ApplyEmergencyFix==='function') window.v639ApplyEmergencyFix();
+  if(typeof window.v636StabilityCheck==='function') window.v636StabilityCheck();
+};
+
+['v629ShowOfficial','v613ShowOfficialHome','v613EnterLearning','go'].forEach(name=>{
+  const old=window[name];
+  if(typeof old==='function' && !old.__v642Wrapped){
+    const wrapped=function(){
+      const r=old.apply(this,arguments);
+      setTimeout(window.v642ApplyContentCleanup,0);
+      setTimeout(window.v642ApplyContentCleanup,360);
+      return r;
+    };
+    wrapped.__v642Wrapped=true;
+    window[name]=wrapped;
+  }
+});
+
+document.addEventListener('click',function(e){
+  if(e.target.closest('[data-v629-view],[data-v632-detail],[data-v632-reserve],button')){
+    setTimeout(window.v642ApplyContentCleanup,180);
+  }
+},true);
+
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(window.v642ApplyContentCleanup,0);
+  setTimeout(window.v642ApplyContentCleanup,720);
+});
+window.addEventListener('resize',()=>{
+  clearTimeout(window.__v642ResizeTimer);
+  window.__v642ResizeTimer=setTimeout(window.v642ApplyContentCleanup,160);
+});
+
+
+
+/* V6.4.3 Mobile Final Visual Check + Public Release Polish JS */
+window.v643BuildMobileCheck=function(){
+  let panel=document.getElementById('v643MobileCheckPanel');
+  if(!panel){
+    panel=document.createElement('div');
+    panel.id='v643MobileCheckPanel';
+    panel.className='v643-mobile-check-panel';
+    document.body.appendChild(panel);
+  }
+
+  const bodyText=document.body.innerText || '';
+  const htmlText=document.documentElement.innerHTML || '';
+  const docW=document.documentElement.scrollWidth;
+  const winW=window.innerWidth || docW;
+  const overflow=docW > winW + 2;
+
+  const checks=[
+    ['首页第一屏', bodyText.includes('先看懂，再选车') || bodyText.includes('MENGDADUO')],
+    ['Stock Cars', bodyText.includes('Current Stock Cars') || bodyText.includes('Premium Stock Cars')],
+    ['价格结构', bodyText.includes('支払総額') && bodyText.includes('本体価格') && bodyText.includes('諸費用')],
+    ['Reservation', bodyText.includes('Reservation') && bodyText.includes('复制模板')],
+    ['Contact', bodyText.includes('mengdaduo@outlook.jp') && bodyText.includes('2373998686')],
+    ['图片位', htmlText.includes('stock-mgd-001.jpg') && htmlText.includes('PLACEHOLDER')],
+    ['手机CSS', htmlText.includes('v643-mobile-final') && htmlText.includes('@media(max-width:760px)')],
+    ['无横向溢出', !overflow],
+    ['无明显开发感', !/(展示样本|半成品|测试)/.test(bodyText)]
+  ];
+
+  panel.innerHTML='<b>手机端最终检查</b>' + checks.map(x=>`<div><span>${x[0]}</span><span class="${x[1]?'ok':'warn'}">${x[1]?'OK':'CHECK'}</span></div>`).join('');
+  panel.classList.toggle('show', location.search.includes('mobile=1') || location.hash.includes('mobile'));
+};
+
+window.v643ApplyMobileFinal=function(){
+  document.body.classList.add('v643-mobile-final');
+  document.title='MENGDADUO 中古車 Learning System｜在日华人中古车学习与选车工具';
+
+  /* prevent accidental horizontal overflow from old injected blocks */
+  document.querySelectorAll('.v632-stock-card,.v631-stock-card,.v630-stock-card,.v639-stock-card,.v640-stock-card,.v641-photo-guide,.v642-contact-hero,.v638-res-hero,.v634-section,.v635-public-footer').forEach(el=>{
+    el.style.maxWidth='100%';
+    el.style.boxSizing='border-box';
+  });
+
+  /* Standardize public nav text on narrow screens */
+  if(window.innerWidth <= 760){
+    document.querySelectorAll('[data-v629-view]').forEach(btn=>{
+      const v=btn.dataset.v629View;
+      if(v==='learning') btn.textContent='LEARNING';
+      if(v==='stock') btn.textContent='STOCK';
+      if(v==='reservation') btn.textContent='RESERVE';
+      if(v==='contact') btn.textContent='CONTACT';
+    });
+  }else{
+    document.querySelectorAll('[data-v629-view]').forEach(btn=>{
+      const v=btn.dataset.v629View;
+      if(v==='learning') btn.textContent='LEARNING';
+      if(v==='stock') btn.textContent='STOCK CARS';
+      if(v==='reservation') btn.textContent='RESERVATION';
+      if(v==='contact') btn.textContent='CONTACT';
+    });
+  }
+
+  /* Clean visible development words */
+  const reps=[
+    [/展示样本/g,'库存展示'],
+    [/半成品/g,'公开预览'],
+    [/测试/g,''],
+    [/已加载/g,'']
+  ];
+  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+  let n;
+  while(n=walker.nextNode()){
+    let old=n.nodeValue, s=old;
+    reps.forEach(([r,t])=>s=s.replace(r,t));
+    s=s.replace(/\s{2,}/g,' ');
+    if(s!==old) n.nodeValue=s;
+  }
+
+  if(typeof window.v642ApplyContentCleanup==='function') window.v642ApplyContentCleanup();
+  if(typeof window.v641ApplyPhotoSlots==='function') window.v641ApplyPhotoSlots();
+  if(typeof window.v640ApplyVisualQA==='function') window.v640ApplyVisualQA();
+  if(typeof window.v639ApplyEmergencyFix==='function') window.v639ApplyEmergencyFix();
+  if(typeof window.v636StabilityCheck==='function') window.v636StabilityCheck();
+
+  setTimeout(window.v643BuildMobileCheck,80);
+};
+
+['v629ShowOfficial','v613ShowOfficialHome','v613EnterLearning','go'].forEach(name=>{
+  const old=window[name];
+  if(typeof old==='function' && !old.__v643Wrapped){
+    const wrapped=function(){
+      const r=old.apply(this,arguments);
+      setTimeout(window.v643ApplyMobileFinal,0);
+      setTimeout(window.v643ApplyMobileFinal,420);
+      return r;
+    };
+    wrapped.__v643Wrapped=true;
+    window[name]=wrapped;
+  }
+});
+
+document.addEventListener('click',function(e){
+  if(e.target.closest('[data-v629-view],[data-v632-detail],[data-v632-reserve],[data-v630-filter],button')){
+    setTimeout(window.v643ApplyMobileFinal,180);
+  }
+},true);
+
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(window.v643ApplyMobileFinal,0);
+  setTimeout(window.v643ApplyMobileFinal,900);
+});
+window.addEventListener('hashchange',window.v643BuildMobileCheck);
+window.addEventListener('resize',()=>{
+  clearTimeout(window.__v643ResizeTimer);
+  window.__v643ResizeTimer=setTimeout(window.v643ApplyMobileFinal,180);
+});
+
+
+
+/* V6.5.1 Contact Duplicate Cards Fix JS */
+window.v650FinalFooterHTML=function(){
+  return `<div class="v650-final-footer" data-v650-final-footer="1">
+    <b>MENGDADUO 中古車 Learning System</b>
+    <p>日本中古车学习、选车辅助、费用判断、车况检查和预约咨询准备工具。车辆价格、车况、车检、修复历、整备内容、付款和交车条件，请以实际车辆资料和咨询确认内容为准。</p>
+    <div class="v650-contact-line">
+      <span>Email: mengdaduo@outlook.jp</span>
+      <span>WeChat: 2373998686</span>
+    </div>
+  </div>`;
+};
+
+window.v650ReleaseCheck=function(){
+  let panel=document.getElementById('v650ReleaseCheckPanel');
+  if(!panel){
+    panel=document.createElement('div');
+    panel.id='v650ReleaseCheckPanel';
+    panel.className='v650-release-check-panel';
+    document.body.appendChild(panel);
+  }
+
+  const text=document.body.innerText || '';
+  const html=document.documentElement.innerHTML || '';
+  const docW=document.documentElement.scrollWidth;
+  const winW=window.innerWidth || docW;
+  const overflow=docW > winW + 2;
+
+  const checks=[
+    ['首页', text.includes('先看懂，再选车') || text.includes('MENGDADUO')],
+    ['Stock Cars', text.includes('Current Stock Cars') || text.includes('Premium Stock Cars')],
+    ['价格结构', text.includes('支払総額') && text.includes('本体価格') && text.includes('諸費用')],
+    ['预约模板', text.includes('复制咨询模板') && text.includes('车辆编号')],
+    ['联系方式', text.includes('mengdaduo@outlook.jp') && text.includes('2373998686')],
+    ['车辆图片位', html.includes('stock-mgd-001.jpg') && html.includes('v641ApplyPhotoSlots')],
+    ['手机修复', html.includes('v643ApplyMobileFinal')],
+    ['库存稳定', html.includes('v639ApplyEmergencyFix') || html.includes('v640ApplyVisualQA')],
+    ['SEO', html.includes('og:title') && html.includes('twitter:card')],
+    ['无横向溢出', !overflow],
+    ['无明显开发感', !/(展示样本|半成品|测试)/.test(text)]
+  ];
+
+  panel.innerHTML='<b>V6.5.0 发布检查</b>' + checks.map(x=>`<div><span>${x[0]}</span><span class="${x[1]?'ok':'warn'}">${x[1]?'OK':'CHECK'}</span></div>`).join('');
+  panel.classList.toggle('show', location.search.includes('release=1') || location.hash.includes('release'));
+};
+
+window.v650CleanPublicText=function(){
+  const reps=[
+    [/V6\.\d+\.\d+[^\n。]*/g,'MENGDADUO 中古車 Learning System'],
+    [/已加载/g,''],
+    [/展示样本/g,'库存展示'],
+    [/半成品/g,'公开预览'],
+    [/测试/g,'']
+  ];
+  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+  let n;
+  while(n=walker.nextNode()){
+    let old=n.nodeValue, s=old;
+    reps.forEach(([r,t])=>s=s.replace(r,t));
+    s=s.replace(/\s{2,}/g,' ');
+    if(s!==old) n.nodeValue=s;
+  }
+};
+
+window.v650ApplyPublicRelease=function(){
+  document.body.classList.add('v650-public-release');
+  document.title='MENGDADUO 中古車 Learning System｜在日华人中古车学习与选车工具';
+
+  /* final footer on official pages */
+  document.querySelectorAll('[data-v629-page="home"],[data-v629-page="stock"],[data-v629-page="reservation"],[data-v629-page="contact"]').forEach(page=>{
+    const footers=page.querySelectorAll('[data-v650-final-footer]');
+    footers.forEach((f,i)=>{ if(i>0) f.remove(); });
+    if(!page.querySelector('[data-v650-final-footer]')){
+      page.insertAdjacentHTML('beforeend',window.v650FinalFooterHTML());
+    }
+  });
+
+  /* mobile nav final text */
+  document.querySelectorAll('[data-v629-view]').forEach(btn=>{
+    const v=btn.dataset.v629View;
+    if(window.innerWidth<=760){
+      if(v==='learning') btn.textContent='LEARNING';
+      if(v==='stock') btn.textContent='STOCK';
+      if(v==='reservation') btn.textContent='RESERVE';
+      if(v==='contact') btn.textContent='CONTACT';
+    }else{
+      if(v==='learning') btn.textContent='LEARNING SYSTEM';
+      if(v==='stock') btn.textContent='STOCK CARS';
+      if(v==='reservation') btn.textContent='RESERVATION';
+      if(v==='contact') btn.textContent='CONTACT';
+    }
+  });
+
+  window.v650CleanPublicText();
+
+  if(typeof window.v643ApplyMobileFinal==='function') window.v643ApplyMobileFinal();
+  if(typeof window.v642ApplyContentCleanup==='function') window.v642ApplyContentCleanup();
+  if(typeof window.v641ApplyPhotoSlots==='function') window.v641ApplyPhotoSlots();
+  if(typeof window.v639ApplyEmergencyFix==='function') window.v639ApplyEmergencyFix();
+  if(typeof window.v636StabilityCheck==='function') window.v636StabilityCheck();
+
+  setTimeout(window.v650ReleaseCheck,100);
+};
+
+['v629ShowOfficial','v613ShowOfficialHome','v613EnterLearning','go'].forEach(name=>{
+  const old=window[name];
+  if(typeof old==='function' && !old.__v650Wrapped){
+    const wrapped=function(){
+      const r=old.apply(this,arguments);
+      setTimeout(window.v650ApplyPublicRelease,0);
+      setTimeout(window.v650ApplyPublicRelease,500);
+      return r;
+    };
+    wrapped.__v650Wrapped=true;
+    window[name]=wrapped;
+  }
+});
+
+document.addEventListener('click',function(e){
+  if(e.target.closest('[data-v629-view],[data-v632-detail],[data-v632-reserve],[data-v630-filter],button')){
+    setTimeout(window.v650ApplyPublicRelease,220);
+  }
+},true);
+
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(window.v650ApplyPublicRelease,0);
+  setTimeout(window.v650ApplyPublicRelease,1000);
+});
+window.addEventListener('hashchange',window.v650ReleaseCheck);
+window.addEventListener('resize',()=>{
+  clearTimeout(window.__v650ResizeTimer);
+  window.__v650ResizeTimer=setTimeout(window.v650ApplyPublicRelease,200);
+});
+
+
+
+/* V6.5.1 Contact Duplicate Cards Fix JS */
+window.v651CleanContactDuplicates=function(){
+  document.body.classList.add('v651-contact-clean');
+
+  const contact=document.querySelector('[data-v629-page="contact"]');
+  if(!contact) return;
+
+  /* Remove old V6.3.4 contact cards that duplicate the newer Contact / Service area */
+  contact.querySelectorAll('.v634-contact-service,.v634-trust-grid,#v634Trust').forEach(el=>el.remove());
+
+  /* Remove old loose cards if they were appended directly */
+  contact.querySelectorAll('.v634-trust-card').forEach(card=>{
+    const text=(card.innerText||'').trim();
+    if(/服务范围|咨询前准备|不做什么|注意事项|Disclaimer/.test(text)){
+      card.dataset.v651Old='1';
+      card.remove();
+    }
+  });
+
+  /* Keep only one final Contact hero */
+  const heroes=[...contact.querySelectorAll('#v642ContactHero,.v642-contact-hero')];
+  heroes.forEach((h,i)=>{ if(i>0) h.remove(); });
+
+  /* Keep only one final footer */
+  const footers=[...contact.querySelectorAll('[data-v650-final-footer],.v650-final-footer,[data-v642-mini-footer],.v642-public-footer-mini')];
+  /* footer cleanup handled in v651FinalizeContact */
+};
+
+window.v651FinalizeContact=function(){
+  const contact=document.querySelector('[data-v629-page="contact"]');
+  if(!contact) return;
+
+  /* remove duplicate mini/final footers, keep first final footer if exists */
+  const finalFooters=[...contact.querySelectorAll('[data-v650-final-footer],.v650-final-footer')];
+  finalFooters.forEach((f,i)=>{ if(i>0) f.remove(); });
+
+  const miniFooters=[...contact.querySelectorAll('[data-v642-mini-footer],.v642-public-footer-mini')];
+  miniFooters.forEach(f=>f.remove());
+
+  /* if old code recreated duplicated cards after cleanup, remove again */
+  contact.querySelectorAll('.v634-contact-service,.v634-trust-grid,#v634Trust,.v634-trust-card').forEach(el=>{
+    const text=(el.innerText||'').trim();
+    if(el.classList.contains('v634-contact-service') || /服务范围|咨询前准备|不做什么|注意事项|Disclaimer/.test(text)){
+      el.remove();
+    }
+  });
+
+  const title=contact.querySelector('.v629-page-title h1,.v630-page-title h1');
+  const p=contact.querySelector('.v629-page-title p:last-child,.v630-page-title p:last-child');
+  if(title) title.textContent='Contact / Service';
+  if(p) p.textContent='中古车学习、选车辅助、费用判断和预约咨询准备。';
+
+  if(!contact.querySelector('#v651ContactCleanNote')){
+    const hero=contact.querySelector('#v642ContactHero,.v642-contact-hero');
+    const note=document.createElement('div');
+    note.id='v651ContactCleanNote';
+    note.className='v651-contact-clean-note';
+    note.innerHTML='<b>Contact 页面已整理</b><p>保留正式服务说明和联系方式。网页内不直接完成付款、合同、保险、名义变更或最终交易决定。</p>';
+    if(hero) hero.insertAdjacentElement('afterend',note);
+  }
+};
+
+window.v651ApplyContactFix=function(){
+  window.v651CleanContactDuplicates();
+
+  /* Allow newer final sections to rebuild once, then remove only old duplicated blocks */
+  if(typeof window.v650ApplyPublicRelease==='function') window.v650ApplyPublicRelease();
+  if(typeof window.v642ApplyContentCleanup==='function') window.v642ApplyContentCleanup();
+  if(typeof window.v636StabilityCheck==='function') window.v636StabilityCheck();
+
+  setTimeout(()=>{
+    window.v651CleanContactDuplicates();
+    window.v651FinalizeContact();
+  },60);
+
+  setTimeout(()=>{
+    window.v651CleanContactDuplicates();
+    window.v651FinalizeContact();
+  },260);
+};
+
+['v629ShowOfficial','v613ShowOfficialHome','v613EnterLearning','go'].forEach(name=>{
+  const old=window[name];
+  if(typeof old==='function' && !old.__v651Wrapped){
+    const wrapped=function(){
+      const r=old.apply(this,arguments);
+      setTimeout(window.v651ApplyContactFix,0);
+      setTimeout(window.v651ApplyContactFix,360);
+      return r;
+    };
+    wrapped.__v651Wrapped=true;
+    window[name]=wrapped;
+  }
+});
+
+document.addEventListener('click',function(e){
+  if(e.target.closest('[data-v629-view],button')){
+    setTimeout(window.v651ApplyContactFix,180);
+  }
+},true);
+
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(window.v651ApplyContactFix,0);
+  setTimeout(window.v651ApplyContactFix,900);
+});
+window.addEventListener('resize',()=>{
+  clearTimeout(window.__v651ResizeTimer);
+  window.__v651ResizeTimer=setTimeout(window.v651ApplyContactFix,180);
 });
 
 </script>
